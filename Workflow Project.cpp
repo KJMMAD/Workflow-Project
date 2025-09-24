@@ -2,10 +2,12 @@
 using namespace std;
 int main()
 {
-	char first, middle, last;
-	first = 'L';
-	middle = 'C';
-	last = 'M';
-	cout << first << middle << last << endl;
+	string name, address, phoneNumber;
+	name = "Keira Madrid";
+	address = "123 Red Oak Ln";
+	phoneNumber = "(757)-756-7567";
+	cout << name << endl;
+	cout << address << endl;
+	cout << phoneNumber << endl;
 	return 0;
 }
